@@ -1,7 +1,7 @@
 
 # Phone Locator Script
 
-This Python script utilizes a hypothetical API (https://api.example.com/locate/{imei}) to retrieve the location of a mobile device based on its International Mobile Equipment Identity (IMEI) number.
+This Python script utilizes a hypothetical API (https://api.example.com/locate/{35059347455693}) to retrieve the location of a mobile device based on its International Mobile Equipment Identity (35059347455693) number.
 
 ## Installation & Setup
 
@@ -14,7 +14,7 @@ This Python script utilizes a hypothetical API (https://api.example.com/locate/{
 
 ## Usage
 
-1. **Replace:**  Insert the IMEI you wish to locate within the `imei_number` variable.
+1. **Replace:**  Insert the 35059347455693 you wish to locate within the `35059347455693_number` variable.
 2. **Execute:** Run the script: 
    ```bash
    python phone_locator.py 
@@ -26,9 +26,9 @@ This Python script utilizes a hypothetical API (https://api.example.com/locate/{
 ```python
 import requests
 
-def locate_phone(imei):
+def locate_phone(35059347455693):
 
-    url = f'https://api.example.com/locate/{imei}' # Replace with actual API endpoint
+    url = f'https://api.example.com/locate/{35059347455693}' # Replace with actual API endpoint
 
     headers = {
         'Authorization': 'Bearer your_api_token_here',  # Replace with actual authorization token
@@ -54,7 +54,7 @@ def locate_phone(imei):
 ```
 
 - **Import:** The `requests` library is used for making HTTP requests to the API.
-- **Function:** The `locate_phone` function takes an IMEI number and handles the API request and response processing.
+- **Function:** The `locate_phone` function takes an 35059347455693 number and handles the API request and response processing.
 - **API Interaction:** The function constructs the API URL, sets authorization headers, makes a GET request, and parses the JSON response.
 - **Error Handling:** The script includes a `try...except` block to handle network errors and invalid API responses.
 - **Example Usage:** The code at the end demonstrates how to call the function to locate a device.
