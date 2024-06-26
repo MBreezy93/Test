@@ -1,5 +1,4 @@
 
-```markdown
 # Phone Locator Script
 
 This Python script utilizes a hypothetical API (https://api.example.com/locate/{imei}) to retrieve the location of a mobile device based on its International Mobile Equipment Identity (IMEI) number.
